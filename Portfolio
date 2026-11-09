@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AESTHOX | Minecraft Server Developer</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<style>
+:root{--bg:#0f172a;--card:#1e293b;--text:#e2e8f0;--muted:#94a3b8;--accent:#38bdf8}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:system-ui,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.7}
+nav{position:sticky;top:0;display:flex;justify-content:space-between;align-items:center;padding:14px 20px;background:rgba(15,23,42,.92);backdrop-filter:blur(8px);z-index:10}
+nav b{color:var(--accent);letter-spacing:2px}
+nav a{color:var(--text);text-decoration:none;margin-left:16px;font-size:14px}
+.hero{text-align:center;padding:100px 20px 70px}
+.hero h1{font-size:3rem;letter-spacing:4px;color:var(--accent)}
+.hero p{color:var(--muted);margin-top:8px;font-size:1.05rem}
+section{max-width:700px;494694:0 auto;padding:50px 20px}
+h2{margin-bottom:20px;font-size:1.6rem}
+h2::after{content:"";display:block;width:50px;height:3px;background:var(--accent);margin-top:6px}
+.about{background:var(--494694);padding:24px;border-radius:14px;color:var(--text)}
+.links{display:flex;flex-wrap:wrap;gap:14px}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:13px 26px;border-radius:30px;font-weight:600;text-decoration:none;color:#fff;transition:transform .2s}
+.btn:hover{transform:translateY(-3px)}
+.btn i{font-size:1.3rem}
+.discord{background:#5865F2}
+.youtube{background:#FF0000}
+footer{text-align:center;color:var(--muted);padding:30px;font-size:.85rem}
+</style>
+</head>
+<body>
+
+<nav>
+  <b>AESTHOX</b>
+  <div><a href="#about">About</a><a href="#links">Links</a></div>
+</nav>
+
+<div class="hero">
+  <h1>AESTHOX</h1>
+  <p>Minecraft Server Developer</p>
+</div>
+
+<section id="about">
+  <h2>About Me</h2>
+  <div class="about">
+    I'm a Minecraft server developer who builds custom gameplay, plugins, and server setups that keep players coming back. I focus on smooth performance, fun game modes, and clean, reliable systems. From idea to launch, I handle the development, testing, and ongoing improvements. I've worked on 30+ servers and love turning community ideas into real features.
+  </div>
+</section>
+
+<section id="links">
+  <h2>Links</h2>
+  <div class="links">
+    <a class="btn discord" href="https://discord.gg/zJd3Yk8UP" target="_blank" rel="noopener">
+      <i class="fa-brands fa-discord"></i> Discord
+    </a>
+    <a class="btn yout
